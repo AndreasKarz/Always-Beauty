@@ -1,0 +1,78 @@
+/* Always Beauty · Clinical Elegance · 1.1
+   Google Fonts werden online geladen. Keine Fontdateien im Paket.
+   Dies sind Designgrundlagen, kein vollständiges Website-Frontend. */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --op-ivory: #F7F2EC;
+  --op-nude: #E7D7CC;
+  --op-taupe: #B9A79B;
+  --op-mocha: #5B4A42;
+  --op-gold: #C7A46A;
+  --op-bronze: #806235;
+  --op-espresso: #40322C;
+  --op-white: #FFFFFF;
+  --op-muted: #756A64;
+  --op-success: #4E6657;
+  --op-error: #9D4541;
+  --op-errorTint: #F2E1DE;
+  --op-bg-primary: var(--op-ivory);
+  --op-bg-surface: var(--op-white);
+  --op-bg-soft: var(--op-nude);
+  --op-bg-inverse: var(--op-mocha);
+  --op-text-primary: var(--op-mocha);
+  --op-text-secondary: var(--op-muted);
+  --op-text-inverse: var(--op-white);
+  --op-text-on-dark: var(--op-ivory);
+  --op-brand-accent: var(--op-gold);
+  --op-action-default: var(--op-bronze);
+  --op-action-hover: var(--op-mocha);
+  --op-action-pressed: var(--op-espresso);
+  --op-border-subtle: var(--op-nude);
+  --op-border-interactive: var(--op-bronze);
+  --op-focus-ring: var(--op-bronze);
+  --op-status-success: var(--op-success);
+  --op-status-error: var(--op-error);
+  --op-status-error-bg: var(--op-errorTint);
+  --op-space-0: 0px;
+  --op-space-4: 4px;
+  --op-space-8: 8px;
+  --op-space-12: 12px;
+  --op-space-16: 16px;
+  --op-space-24: 24px;
+  --op-space-32: 32px;
+  --op-space-40: 40px;
+  --op-space-48: 48px;
+  --op-space-64: 64px;
+  --op-space-80: 80px;
+  --op-space-96: 96px;
+  --op-space-120: 120px;
+  --op-space-160: 160px;
+  --op-radius-0: 0px;
+  --op-radius-4: 4px;
+  --op-radius-8: 8px;
+  --op-radius-12: 12px;
+  --op-radius-999: 999px;
+  --op-font-display: 'Cormorant Garamond', Georgia, serif;
+  --op-font-body: 'Inter', Arial, sans-serif;
+  --op-transition: 200ms ease;
+  --op-content-max: 1280px;
+}
+body { margin: 0; background: var(--op-ivory); color: var(--op-mocha); font-family: var(--op-font-body); font-size: 18px; line-height: 1.5556; }
+h1, h2, h3 { font-family: var(--op-font-display); font-weight: 500; }
+h1 { font-size: clamp(44px, 5vw, 72px); line-height: 1.11; }
+h2 { font-size: 44px; line-height: 1.182; }
+h3 { font-size: 32px; line-height: 1.25; }
+.op-container { width: min(calc(100% - 160px), var(--op-content-max)); margin-inline: auto; }
+.op-button { min-height: 56px; min-width: 48px; padding: 0 24px; border: 1px solid var(--op-bronze); border-radius: 4px; background: var(--op-bronze); color: #fff; font: 500 16px/24px var(--op-font-body); display: inline-flex; gap: 12px; align-items: center; justify-content: center; cursor: pointer; transition: background var(--op-transition); }
+.op-button:hover { background: var(--op-mocha); border-color: var(--op-mocha); }
+.op-button:active { background: var(--op-espresso); }
+.op-button--secondary { background: #fff; color: var(--op-mocha); }
+.op-button--secondary:hover { background: var(--op-ivory); }
+.op-button:disabled { opacity: .45; cursor: not-allowed; }
+:focus-visible { outline: 3px solid var(--op-bronze); outline-offset: 4px; }
+.op-field { min-height: 56px; box-sizing: border-box; width: 100%; padding: 14px 16px; background: white; color: var(--op-mocha); border: 1px solid var(--op-bronze); border-radius: 4px; font: 400 16px/26px var(--op-font-body); }
+.op-field[aria-invalid="true"] { border-color: var(--op-error); }
+.op-error { color: var(--op-error); font-size: 14px; }
+@media (max-width: 767px) { body { font-size: 16px; line-height: 1.625; } .op-container { width: calc(100% - 48px); } h2 { font-size: 36px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }

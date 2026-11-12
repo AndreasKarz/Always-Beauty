@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="168" viewBox="0 0 120 168">
+  <defs>
+    <clipPath id="clip0">
+      <rect width="120" height="168"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip0)">
+    <g transform="translate(12.61, 4.5)">
+      <path d="M83.39 0C63.14 38.25 2.39 53.25 0.14 102.75C-1.36 128.25 9.89 148.5 18.89 157.5C0.89 117.75 15.89 98.25 39.14 74.25C59.39 53.25 75.89 24 83.39 0Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.75"/>
+    </g>
+    <g transform="translate(31.5, 21.75)">
+      <path d="M58.5 0C52.5 36 1.5 63 0 114.75C3 87 23.25 73.5 42 54C55.5 39 59.25 20.25 58.5 0Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.75"/>
+    </g>
+    <g transform="translate(37.5, 22.5)">
+      <path d="M54.75 0C53.25 11.25 63.75 21.75 60 35.25C57 43.5 61.5 50.25 69 59.25C73.5 65.25 57.75 66.75 61.5 74.25C65.25 80.25 63 81.75 57.75 84C63.75 86.25 63.75 88.5 58.5 91.5C54.75 94.5 62.25 104.25 54 111C46.5 117.75 27.75 112.5 16.5 116.25C5.25 119.25 0 129 0 141" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

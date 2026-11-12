@@ -1,0 +1,41 @@
+{
+  "fileBytes": 860160,
+  "pages": [
+    {
+      "name": "00 · Marke & Grundlagen",
+      "nodes": 249
+    },
+    {
+      "name": "01 · Komponenten & Website",
+      "nodes": 499
+    },
+    {
+      "name": "02 · Social, Print & Bildwelt",
+      "nodes": 290
+    }
+  ],
+  "nodes": 1068,
+  "textNodes": 448,
+  "components": 52,
+  "componentSets": 5,
+  "instances": 80,
+  "textStyles": 15,
+  "colorStyles": 10,
+  "variables": 52,
+  "collections": 3,
+  "embeddedImages": 6,
+  "fontFamilies": [
+    "Cormorant Garamond",
+    "Inter"
+  ],
+  "validation": "Native .fig-Archivstruktur lokal gelesen und rekodiert. Alle Originalknoten und sechs eingebetteten Bilder bestätigt. Zwei Bildlegenden ergänzt. Import in Figma noch offen.",
+  "version": "1.1",
+  "date": "2026-11-12",
+  "vectorNodes": 200,
+  "autoLayoutNodes": 34,
+  "nodesWithVariableBindings": 755,
+  "textRoundtripDifferences": 0,
+  "missingInstanceComponents": 0,
+  "visualReview": "Markenwelt, Website-Entwürfe, Bildreferenzen, Formular und Social-Beispiele aus aktualisierten SVGs gerendert und geprüft.",
+  "sha256": "f1ed1fdf10c383f7e9c0b05ee845ede0fc2ae52191e498fb1ab53a62e7846fa9"
+}

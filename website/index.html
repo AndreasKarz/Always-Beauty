@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Always Beauty in Zürich Enge. Persönliche Hautpflege, Gesichts- und Körperbehandlungen, Wimpern und Haarentfernung bei Oxana Peske.">
+  <meta name="theme-color" content="#f7f2ec">
+  <title>Always Beauty | Kosmetikstudio Zürich Enge</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/react.production.min.js" defer></script>
+  <script src="vendor/react-dom.production.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#inhalt">Zum Inhalt</a>
+  <header class="site-header" id="start">
+    <div class="shell site-header__inner">
+      <a class="site-logo" href="#start" aria-label="Always Beauty, Startseite">
+        <img src="assets/always-beauty-logo.svg" width="410" height="75" alt="Always Beauty">
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <a href="#behandlungen">Behandlungen</a>
+        <a href="#oxana">Über Oxana</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a class="button button--header" href="#termin">Termin anfragen <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="inhalt">
+    <section class="shell hero" aria-labelledby="hero-heading">
+      <div class="hero__content">
+        <p class="eyebrow">Kosmetikstudio in Zürich Enge</p>
+        <h1 id="hero-heading">Ihre Haut.<br>Ihre Zeit.</h1>
+        <p class="hero__lead">Persönliche Pflege,<br class="hero__break"> auf Sie abgestimmt.</p>
+        <p class="hero__description">Bei Always Beauty nimmt sich Oxana Peske Zeit für Ihre Haut und Ihre Fragen. Gemeinsam finden Sie heraus, welche Pflege zu Ihnen passt.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#termin">Termin bei Oxana anfragen <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#behandlungen">Behandlungen ansehen <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <figure class="hero__image">
+        <img src="assets/images/hero.jpg" alt="Frau mit natürlicher Haut im warmen Seitenlicht" width="1122" height="1402" fetchpriority="high">
+        <figcaption>Stimmungsbild zur Gesichtspflege</figcaption>
+      </figure>
+    </section>
+
+    <section class="section treatments" id="behandlungen" aria-labelledby="treatments-heading">
+      <div class="shell">
+        <div class="section-heading">
+          <h2 id="treatments-heading">Behandlungen</h2>
+          <p>Welche Behandlung passt zu Ihnen? Wenn Sie unsicher sind, klären wir das gemeinsam.</p>
+        </div>
+        <div class="treatments__layout">
+          <figure class="treatments__image">
+            <img src="assets/images/treatment.jpg" alt="Hände mit einem warmen Handtuch für eine Gesichtsbehandlung" width="768" height="1024" loading="lazy">
+          </figure>
+          <div class="treatments__list">
+            <article class="treatment">
+              <h3><a href="#termin" data-treatment="gesicht" aria-label="Gesichtspflege anfragen">Gesichtspflege<span aria-hidden="true">↗</span></a></h3>
+              <p>Klassische Gesichtsbehandlungen, Peelings und Pflege, abgestimmt auf Ihren Hautzustand.</p>
+            </article>
+            <article class="treatment">
+              <h3><a href="#termin" data-treatment="apparativ" aria-label="Apparative Kosmetik anfragen">Apparative Kosmetik<span aria-hidden="true">↗</span></a></h3>
+              <p>Kosmetische Anwendungen wie Hydradermie und Mikrodermabrasion. Oxana bespricht mit Ihnen, welche Methode zu Ihrer Haut passt.</p>
+            </article>
+            <article class="treatment">
+              <h3><a href="#termin" data-treatment="koerper" aria-label="Körperbehandlungen anfragen">Körperbehandlungen<span aria-hidden="true">↗</span></a></h3>
+              <p>Körperpflege, Massage und Bodyforming mit VelaShape II.</p>
+            </article>
+            <article class="treatment">
+              <h3><a href="#termin" data-treatment="wimpern" aria-label="Wimpern anfragen">Wimpern<span aria-hidden="true">↗</span></a></h3>
+              <p>Wimpern färben oder verlängern, mit Einzel- und Volumentechnik.</p>
+            </article>
+            <article class="treatment">
+              <h3><a href="#termin" data-treatment="haar" aria-label="Haarentfernung anfragen">Haarentfernung<span aria-hidden="true">↗</span></a></h3>
+              <p>Haarentfernung mit Wachs und apparative Methoden nach persönlicher Beratung.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile" id="oxana" aria-labelledby="profile-heading">
+      <div class="shell profile__layout">
+        <div class="profile__intro">
+          <p class="eyebrow">Ihre Ansprechpartnerin</p>
+          <h2 id="profile-heading">Oxana Peske</h2>
+          <p>Inhaberin und diplomierte Kosmetikerin<br class="profile__break"> mit V-NISSG-Sachkundenachweis</p>
+        </div>
+        <div class="profile__message">
+          <p class="profile__statement">Bei mir beginnt eine Behandlung mit Zuhören.</p>
+          <p>Ich begleite Sie vom ersten Gespräch über die Behandlung bis zur Pflege zu Hause. Dabei besprechen wir, was Ihre Haut braucht und welche Schritte in Ihren Alltag passen.</p>
+          <a class="text-link text-link--light" href="#termin">Mit Oxana sprechen <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section first-visit" aria-labelledby="visit-heading">
+      <div class="shell">
+        <div class="section-heading">
+          <h2 id="visit-heading">Ihr erster Besuch</h2>
+          <p>Sie können mit einer konkreten Anfrage oder einfach mit Ihren Fragen zu mir kommen.</p>
+        </div>
+        <ol class="visit-steps">
+          <li>
+            <h3>Zuhören</h3>
+            <p>Wir sprechen über Ihre Wünsche, Ihre bisherige Pflege und darüber, was in Ihren Alltag passt.</p>
+          </li>
+          <li>
+            <h3>Haut verstehen</h3>
+            <p>Ich schaue mir Ihre Haut an und erkläre Ihnen, welche Behandlung ich Ihnen empfehle und warum.</p>
+          </li>
+          <li>
+            <h3>Pflege abstimmen</h3>
+            <p>Wir legen die nächsten Schritte fest. Auf Wunsch besprechen wir auch die Pflege für zu Hause.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section appointment" id="termin" aria-labelledby="appointment-heading">
+      <div class="shell appointment__layout">
+        <div class="appointment__intro">
+          <h2 id="appointment-heading">Termin bei Oxana anfragen</h2>
+          <p>Schreiben Sie mir, was Sie sich wünschen und wann es Ihnen gut passt. Ich melde mich persönlich zur Terminbestätigung.</p>
+          <a class="text-link" href="tel:+41438176700">Lieber anrufen? +41 43 817 67 00</a>
+        </div>
+        <div id="appointment-form">
+          <a class="button button--primary" href="mailto:info@always-beauty.ch?subject=Terminanfrage%20Always%20Beauty">Terminanfrage per E-Mail <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="kontakt" aria-labelledby="contact-heading">
+      <div class="shell contact__layout">
+        <div class="contact__content">
+          <h2 id="contact-heading">In Zürich Enge</h2>
+          <address>
+            <strong>Always Beauty</strong><br>
+            Brandschenkestrasse 53<br>
+            8002 Zürich
+          </address>
+          <dl class="contact__hours">
+            <dt>Dienstag, Donnerstag, Freitag</dt>
+            <dd>10.00–19.00 Uhr</dd>
+            <dt>Samstag</dt>
+            <dd>10.00–17.00 Uhr</dd>
+          </dl>
+          <div class="contact__links">
+            <a class="text-link" href="tel:+41438176700">+41 43 817 67 00</a>
+            <a class="text-link" href="mailto:info@always-beauty.ch">info@always-beauty.ch</a>
+            <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Brandschenkestrasse+53%2C+8002+Z%C3%BCrich">Route öffnen <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <figure class="contact__image">
+          <img src="assets/images/studio.jpg" alt="Warmes Licht und natürliche Materialien in einem Behandlungsraum" width="768" height="1024" loading="lazy">
+          <figcaption>Visualisierung der Salonatmosphäre</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell site-footer__inner">
+      <div>
+        <a class="site-footer__brand" href="#start">Always Beauty</a>
+        <p>Ihre Haut. Ihre Zeit.</p>
+      </div>
+      <p class="site-footer__address">Always-Beauty Kosmetik Salon Peske<br>Brandschenkestrasse 53, 8002 Zürich</p>
+      <a class="text-link text-link--light" href="#start">Nach oben <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
+
+

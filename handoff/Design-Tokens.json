@@ -1,0 +1,528 @@
+{
+  "brand": {
+    "name": "Always Beauty",
+    "claim": "Ihre Haut. Ihre Zeit.",
+    "direction": "Clinical Elegance",
+    "positioning": "Persönliche Hautpflege mit Oxana Peske",
+    "bookingLabel": "Termin bei Oxana anfragen"
+  },
+  "colors": {
+    "ivory": "#F7F2EC",
+    "nude": "#E7D7CC",
+    "taupe": "#B9A79B",
+    "mocha": "#5B4A42",
+    "gold": "#C7A46A",
+    "bronze": "#806235",
+    "espresso": "#40322C",
+    "white": "#FFFFFF",
+    "muted": "#756A64",
+    "success": "#4E6657",
+    "error": "#9D4541",
+    "errorTint": "#F2E1DE"
+  },
+  "semanticColors": {
+    "bg/primary": "ivory",
+    "bg/surface": "white",
+    "bg/soft": "nude",
+    "bg/inverse": "mocha",
+    "text/primary": "mocha",
+    "text/secondary": "muted",
+    "text/inverse": "white",
+    "text/on-dark": "ivory",
+    "brand/accent": "gold",
+    "action/default": "bronze",
+    "action/hover": "mocha",
+    "action/pressed": "espresso",
+    "border/subtle": "nude",
+    "border/interactive": "bronze",
+    "focus/ring": "bronze",
+    "status/success": "success",
+    "status/error": "error",
+    "status/error-bg": "errorTint"
+  },
+  "typography": {
+    "Display": {
+      "fk": "CG",
+      "fontFamily": "Cormorant Garamond",
+      "fontWeight": 500,
+      "fontSize": 72,
+      "lineHeight": 80,
+      "letterSpacing": 0
+    },
+    "H1": {
+      "fk": "CG",
+      "fontFamily": "Cormorant Garamond",
+      "fontWeight": 500,
+      "fontSize": 56,
+      "lineHeight": 64,
+      "letterSpacing": 0
+    },
+    "H2": {
+      "fk": "CG",
+      "fontFamily": "Cormorant Garamond",
+      "fontWeight": 500,
+      "fontSize": 44,
+      "lineHeight": 52,
+      "letterSpacing": 0
+    },
+    "H3": {
+      "fk": "CG",
+      "fontFamily": "Cormorant Garamond",
+      "fontWeight": 500,
+      "fontSize": 32,
+      "lineHeight": 40,
+      "letterSpacing": 0
+    },
+    "H4": {
+      "fk": "CG",
+      "fontFamily": "Cormorant Garamond",
+      "fontWeight": 500,
+      "fontSize": 26,
+      "lineHeight": 34,
+      "letterSpacing": 0
+    },
+    "BodyL": {
+      "fk": "IR",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeight": 28,
+      "letterSpacing": 0
+    },
+    "Body": {
+      "fk": "IR",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeight": 26,
+      "letterSpacing": 0
+    },
+    "BodyS": {
+      "fk": "IR",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeight": 22,
+      "letterSpacing": 0
+    },
+    "Label": {
+      "fk": "IM",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 16,
+      "lineHeight": 24,
+      "letterSpacing": 0
+    },
+    "Caption": {
+      "fk": "IR",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeight": 18,
+      "letterSpacing": 0
+    },
+    "Overline": {
+      "fk": "IM",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeight": 18,
+      "letterSpacing": 2
+    },
+    "SocialDisplay": {
+      "fk": "CG",
+      "fontFamily": "Cormorant Garamond",
+      "fontWeight": 500,
+      "fontSize": 96,
+      "lineHeight": 106,
+      "letterSpacing": 0
+    },
+    "SocialBody": {
+      "fk": "IR",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 38,
+      "lineHeight": 56,
+      "letterSpacing": 0
+    },
+    "SocialLabel": {
+      "fk": "IM",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 28,
+      "lineHeight": 40,
+      "letterSpacing": 2
+    },
+    "Logo": {
+      "fk": "CG",
+      "fontFamily": "Cormorant Garamond",
+      "fontWeight": 500,
+      "fontSize": 64,
+      "lineHeight": 72,
+      "letterSpacing": 4
+    }
+  },
+  "spacing": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    40,
+    48,
+    64,
+    80,
+    96,
+    120,
+    160
+  ],
+  "radii": [
+    0,
+    4,
+    8,
+    12,
+    999
+  ],
+  "touchTarget": 48,
+  "buttonHeight": 56,
+  "grid": {
+    "desktop": {
+      "width": 1440,
+      "margin": 80,
+      "gutter": 24,
+      "columns": 12
+    },
+    "mobile": {
+      "width": 390,
+      "margin": 24,
+      "gutter": 16,
+      "columns": 4
+    }
+  },
+  "assets": [
+    {
+      "file": "logos/Always-Beauty-stacked-primary.svg",
+      "name": "Layout=Stacked, Tone=Primary",
+      "width": 640,
+      "height": 364,
+      "nodeId": "2100496869:91"
+    },
+    {
+      "file": "logos/Always-Beauty-stacked-white.svg",
+      "name": "Layout=Stacked, Tone=White",
+      "width": 640,
+      "height": 364,
+      "nodeId": "2100496869:98"
+    },
+    {
+      "file": "logos/Always-Beauty-stacked-mono.svg",
+      "name": "Layout=Stacked, Tone=Mono",
+      "width": 640,
+      "height": 364,
+      "nodeId": "2100496869:105"
+    },
+    {
+      "file": "logos/Always-Beauty-horizontal-primary.svg",
+      "name": "Layout=Horizontal, Tone=Primary",
+      "width": 410,
+      "height": 75,
+      "nodeId": "2100496869:112"
+    },
+    {
+      "file": "logos/Always-Beauty-horizontal-white.svg",
+      "name": "Layout=Horizontal, Tone=White",
+      "width": 410,
+      "height": 75,
+      "nodeId": "2100496869:119"
+    },
+    {
+      "file": "logos/Always-Beauty-horizontal-mono.svg",
+      "name": "Layout=Horizontal, Tone=Mono",
+      "width": 410,
+      "height": 75,
+      "nodeId": "2100496869:126"
+    },
+    {
+      "file": "logos/Always-Beauty-compact-primary.svg",
+      "name": "Layout=Compact, Tone=Primary",
+      "width": 300,
+      "height": 60,
+      "nodeId": "2100496869:133"
+    },
+    {
+      "file": "logos/Always-Beauty-compact-white.svg",
+      "name": "Layout=Compact, Tone=White",
+      "width": 300,
+      "height": 60,
+      "nodeId": "2100496869:140"
+    },
+    {
+      "file": "logos/Always-Beauty-compact-mono.svg",
+      "name": "Layout=Compact, Tone=Mono",
+      "width": 300,
+      "height": 60,
+      "nodeId": "2100496869:147"
+    },
+    {
+      "file": "logos/Always-Beauty-Logo.svg",
+      "name": "Layout=Mark, Tone=Primary",
+      "width": 120,
+      "height": 168,
+      "nodeId": "2100496869:154"
+    },
+    {
+      "file": "logos/Always-Beauty-mark-white.svg",
+      "name": "Layout=Mark, Tone=White",
+      "width": 120,
+      "height": 168,
+      "nodeId": "2100496869:159"
+    },
+    {
+      "file": "logos/Always-Beauty-mark-mono.svg",
+      "name": "Layout=Mark, Tone=Mono",
+      "width": 120,
+      "height": 168,
+      "nodeId": "2100496869:164"
+    },
+    {
+      "file": "previews/01-markenwelt.svg",
+      "name": "00 · Marke / Überblick",
+      "width": 1440,
+      "height": 1120,
+      "nodeId": "2100496869:169"
+    },
+    {
+      "file": "previews/02-logo-anwendungen.svg",
+      "name": "01 · Logo / Anwendung",
+      "width": 1440,
+      "height": 1120,
+      "nodeId": "2100496869:186"
+    },
+    {
+      "file": "previews/03-farbwelt.svg",
+      "name": "02 · Farben / Tokens",
+      "width": 1440,
+      "height": 1120,
+      "nodeId": "2100496869:223"
+    },
+    {
+      "file": "previews/04-komponenten.svg",
+      "name": "00 · Komponenten / Übersicht",
+      "width": 1440,
+      "height": 1280,
+      "nodeId": "2100496869:478"
+    },
+    {
+      "file": "previews/05-website-desktop.svg",
+      "name": "01 · Website / Desktop 1440",
+      "width": 1440,
+      "height": 3900,
+      "nodeId": "2100496869:550"
+    },
+    {
+      "file": "previews/06-website-mobile.svg",
+      "name": "02 · Website / Mobile 390",
+      "width": 390,
+      "height": 3840,
+      "nodeId": "2100496869:651"
+    },
+    {
+      "file": "previews/07-terminanfrage.svg",
+      "name": "03 · Terminanfrage / Desktop",
+      "width": 860,
+      "height": 1210,
+      "nodeId": "2100496869:706"
+    },
+    {
+      "file": "previews/08-bildreferenzen.svg",
+      "name": "00 · Bildästhetik / Referenzen",
+      "width": 1440,
+      "height": 1590,
+      "nodeId": "2100496869:836"
+    },
+    {
+      "file": "social/Template-Bild.svg",
+      "name": "Social / Feed / Bild",
+      "width": 1080,
+      "height": 1350,
+      "nodeId": "2100496869:877"
+    },
+    {
+      "file": "social/Template-Wissen.svg",
+      "name": "Social / Feed / Wissen",
+      "width": 1080,
+      "height": 1350,
+      "nodeId": "2100496869:888"
+    },
+    {
+      "file": "social/Template-Marke.svg",
+      "name": "Social / Feed / Marke",
+      "width": 1080,
+      "height": 1350,
+      "nodeId": "2100496869:901"
+    },
+    {
+      "file": "social/Feed-01.svg",
+      "name": "Feed 01 · Bild",
+      "width": 1080,
+      "height": 1350,
+      "nodeId": "2100496869:915"
+    },
+    {
+      "file": "social/Feed-02.svg",
+      "name": "Feed 02 · Wissen",
+      "width": 1080,
+      "height": 1350,
+      "nodeId": "2100496869:926"
+    },
+    {
+      "file": "social/Feed-03.svg",
+      "name": "Feed 03 · Marke",
+      "width": 1080,
+      "height": 1350,
+      "nodeId": "2100496869:939"
+    },
+    {
+      "file": "social/Feed-04.svg",
+      "name": "Feed 04 · Bild",
+      "width": 1080,
+      "height": 1350,
+      "nodeId": "2100496869:953"
+    },
+    {
+      "file": "social/Feed-05.svg",
+      "name": "Feed 05 · Wissen",
+      "width": 1080,
+      "height": 1350,
+      "nodeId": "2100496869:964"
+    },
+    {
+      "file": "social/Feed-06.svg",
+      "name": "Feed 06 · Marke",
+      "width": 1080,
+      "height": 1350,
+      "nodeId": "2100496869:977"
+    },
+    {
+      "file": "social/Story-1.svg",
+      "name": "Social / Story / Marke",
+      "width": 1080,
+      "height": 1920,
+      "nodeId": "2100496869:991"
+    },
+    {
+      "file": "social/Story-2.svg",
+      "name": "Social / Story / Pflegezeit",
+      "width": 1080,
+      "height": 1920,
+      "nodeId": "2100496869:1003"
+    },
+    {
+      "file": "social/Avatar.svg",
+      "name": "Social / Avatar",
+      "width": 640,
+      "height": 640,
+      "nodeId": "2100496869:1018"
+    },
+    {
+      "name": "Print / Visitenkarte / Vorderseite · 85 × 55 mm",
+      "width": 850,
+      "height": 550,
+      "nodeId": "2100496869:1053",
+      "location": "Bearbeitbarer Querformat-Entwurf in Figma"
+    },
+    {
+      "name": "Print / Visitenkarte / Rückseite · 85 × 55 mm",
+      "width": 850,
+      "height": 550,
+      "nodeId": "2100496869:1060",
+      "location": "Bearbeitbarer Querformat-Entwurf in Figma"
+    },
+    {
+      "file": "print/Gutschein-A5.svg",
+      "name": "Print / Gutschein · A5 quer",
+      "width": 1480,
+      "height": 1043.048,
+      "nodeId": "2100496869:1065"
+    },
+    {
+      "file": "print/Terminkarte.svg",
+      "name": "Print / Terminkarte · 85 × 55 mm",
+      "width": 850,
+      "height": 550,
+      "nodeId": "2100496869:1083"
+    },
+    {
+      "file": "print/Briefpapier-A4.svg",
+      "name": "Print / Briefpapier · A4",
+      "width": 794,
+      "height": 1123,
+      "nodeId": "2100496869:1096"
+    },
+    {
+      "file": "previews/09-typografie.svg",
+      "name": "03 · Typografie / Google Fonts",
+      "width": 1440,
+      "height": 1340,
+      "nodeId": "2100496869:256"
+    },
+    {
+      "file": "previews/10-raster-lesbarkeit.svg",
+      "name": "04 · Raster / Barrierearme Bedienung",
+      "width": 1440,
+      "height": 1200,
+      "nodeId": "2100496869:296"
+    },
+    {
+      "file": "previews/11-markenstimme.svg",
+      "name": "05 · Markenstimme / Freigabe",
+      "width": 1440,
+      "height": 1200,
+      "nodeId": "2100496869:324"
+    },
+    {
+      "file": "previews/12-shooting-regeln.svg",
+      "name": "01 · Fotografie / Shooting-Regeln",
+      "width": 1440,
+      "height": 1120,
+      "nodeId": "2100496869:862"
+    },
+    {
+      "file": "previews/13-social-regeln.svg",
+      "name": "02 · Social / Anwendung & Regeln",
+      "width": 1440,
+      "height": 1050,
+      "nodeId": "2100496869:1023"
+    },
+    {
+      "file": "previews/14-uebergabe.svg",
+      "name": "03 · Übergabe / Checkliste",
+      "width": 1440,
+      "height": 1320,
+      "nodeId": "2100496869:1109"
+    },
+    {
+      "file": "previews/15-terminanfrage-mobile.svg",
+      "name": "04 · Terminanfrage / Mobile",
+      "width": 390,
+      "height": 1270,
+      "nodeId": "2100496869:747"
+    },
+    {
+      "file": "previews/16-formular-bestaetigung.svg",
+      "name": "05 · Bestätigung / Formularzustand",
+      "width": 860,
+      "height": 640,
+      "nodeId": "2100496869:781"
+    },
+    {
+      "file": "previews/17-behandlungsdetail.svg",
+      "name": "06 · Behandlung / Detailvorlage",
+      "width": 1440,
+      "height": 1800,
+      "nodeId": "2100496869:798"
+    }
+  ]
+}
