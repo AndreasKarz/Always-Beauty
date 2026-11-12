@@ -426,7 +426,6 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
-
 # Lokale Arbeitskopien und temporäre Exporte
 .always-beauty-video-work/
 .concept-work/
