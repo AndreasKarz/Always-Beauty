@@ -7,13 +7,22 @@
   const h = React.createElement;
   const emailAddress = "info@always-beauty.ch";
   const treatments = {
-    beratung: "Ich möchte mich beraten lassen",
-    gesicht: "Gesichtsbehandlungen",
-    apparativ: "Apparative Kosmetik",
-    koerper: "Körperbehandlungen",
-    wimpern: "Wimpern und Brauen",
-    haar: "Haarentfernung"
+    "beratung": "Ich möchte mich beraten lassen",
+    "klassische-gesichtsbehandlung": "Klassische Gesichtsbehandlung",
+    "hydradermie": "Hydradermie",
+    "sauerstoffbehandlung": "Sauerstoffbehandlung",
+    "gesichts-und-dekollete-massage": "Gesichts-, Hals- und Dekolleté-Massage",
+    "hydradermie-lift-augen": "Hydradermie Lift Augenbehandlung",
+    "wimpern-faerben": "Wimpern färben"
   };
+
+  function treatmentKey(value) {
+    return Object.hasOwn(treatments, value) ? value : "beratung";
+  }
+
+  function requestedTreatment() {
+    return treatmentKey(new URLSearchParams(window.location.search).get("behandlung"));
+  }
 
   function field(label, id, control, fullWidth) {
     return h("div", { className: fullWidth ? "form-field form-field--full" : "form-field" },
@@ -25,7 +34,7 @@
   function makeMailto(data) {
     const name = String(data.get("name") || "").trim();
     const email = String(data.get("email") || "").trim();
-    const treatment = treatments[data.get("treatment")] || treatments.beratung;
+    const treatment = treatments[treatmentKey(data.get("treatment"))];
     const preferredTime = String(data.get("preferredTime") || "").trim();
     const note = String(data.get("note") || "").trim().replace(/\r\n?|\n/g, "\r\n");
 
@@ -49,21 +58,8 @@
   }
 
   function AppointmentForm() {
-    const [treatment, setTreatment] = React.useState("beratung");
+    const [treatment, setTreatment] = React.useState(requestedTreatment);
     const [preparedMailto, setPreparedMailto] = React.useState("");
-
-    React.useEffect(function () {
-      function selectLinkedTreatment(event) {
-        const link = event.target.closest("[data-treatment]");
-        if (link && Object.hasOwn(treatments, link.dataset.treatment)) {
-          setTreatment(link.dataset.treatment);
-        }
-      }
-      document.addEventListener("click", selectLinkedTreatment);
-      return function () {
-        document.removeEventListener("click", selectLinkedTreatment);
-      };
-    }, []);
 
     function handleSubmit(event) {
       event.preventDefault();

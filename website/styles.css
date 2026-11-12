@@ -294,6 +294,88 @@ h3 {
   font-size: clamp(1rem, 1.5vw, 1.15rem);
 }
 
+.holiday-gift {
+  background: #47342a;
+  color: var(--ivory);
+}
+
+.holiday-gift__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+  gap: clamp(2rem, 6vw, 7rem);
+  align-items: center;
+  padding-block: clamp(2.8rem, 6vw, 6rem);
+}
+
+.holiday-gift__content .eyebrow { color: #e0bd8d; }
+
+.holiday-gift__content h2 {
+  color: inherit;
+  margin-block: .28em .26em;
+}
+
+.holiday-gift__content > p:not(.eyebrow) {
+  color: #f1e5d9;
+  max-width: 33rem;
+  margin-bottom: 1.55rem;
+}
+
+.button--gift {
+  background: #eedbc1;
+  color: #38281f;
+  border-color: #eedbc1;
+}
+
+.button--gift:hover {
+  background: var(--cream);
+  border-color: var(--cream);
+}
+
+.holiday-gift__visual {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  min-height: clamp(14rem, 25vw, 22rem);
+  border: 1px solid #a78563;
+  background: radial-gradient(ellipse at 36% 15%, #8b6953, #594134 60%, #392a23);
+}
+
+.holiday-gift__visual::before {
+  position: absolute;
+  z-index: -1;
+  width: 120%;
+  height: clamp(2.7rem, 5.5vw, 4.6rem);
+  transform: rotate(31deg);
+  background: linear-gradient(180deg, #ac8050 0%, #d8af75 45%, #9a6b43 100%);
+  box-shadow: 0 .5rem 1.35rem #23160f66;
+  opacity: .86;
+  content: "";
+}
+
+.holiday-gift__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: min(75%, 24rem);
+  aspect-ratio: 1.65;
+  padding: clamp(1.15rem, 3.3vw, 2.5rem);
+  transform: rotate(-7deg);
+  background: linear-gradient(145deg, #fff9ef, #e9d6bf);
+  box-shadow: 0 1.35rem 2.6rem #28160fb3;
+  color: #392820;
+}
+
+.holiday-gift__card img {
+  width: min(100%, 12.25rem);
+  height: auto;
+}
+
+.holiday-gift__card p {
+  font: 500 clamp(1.5rem, 3.7vw, 2.85rem)/1 var(--display);
+}
+
 .treatments {
   background: var(--cream);
   border-top: 1px solid var(--line);
@@ -352,6 +434,14 @@ h3 {
   margin-top: .38rem;
   color: var(--muted);
   max-width: 36rem;
+}
+
+
+.treatment .treatment__meta {
+  color: var(--bronze);
+  font-size: .9rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
 }
 
 .profile {
@@ -579,6 +669,11 @@ h3 {
 }
 
 @media (max-width: 43rem) {
+
+  .holiday-gift__layout { grid-template-columns: minmax(0, 1fr); }
+  .holiday-gift__visual { min-height: clamp(14rem, 55vw, 19rem); }
+  .holiday-gift__card { width: min(72%, 20rem); }
+
   .hero,
   .section-heading,
   .treatments__layout,

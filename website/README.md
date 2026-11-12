@@ -8,6 +8,12 @@ Das Formular in `app.js` setzt den E-Mail-Entwurf für `info@always-beauty.ch` z
 
 React und ReactDOM 18.3.1 sowie die Schriften liegen mit den Lizenzdateien lokal bei. Die Website benötigt weder Installation noch Build-Schritt.
 
+## Behandlungen und Weihnachtsgutschein
+
+Die sechs Unterseiten liegen in `behandlungen`. Ihre Terminschaltflächen wählen im Formular die passende Behandlung vor. Preise und Dauer stammen von der [Salonsite](https://always-beauty.ch/). Bei Änderungen bitte die Startseite und die betroffene Unterseite abgleichen.
+
+Der Abo-Gutschein steht als zweite Sektion auf der Startseite. Die Gutscheinanfrage und «Mit Oxana sprechen» führen zur auf der Salonsite verlinkten WhatsApp-Nummer.
+
 ## Bilder ersetzen
 
 | Datei | Einsatz | Format |
