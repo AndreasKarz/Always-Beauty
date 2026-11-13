@@ -44,9 +44,12 @@ Für die lokale Vorschau öffnest du `website/index.html` oder `Vorschau.html` i
 | Druckvorlagen im Paket | [Druckvorlagen als ZIP](Always-Beauty_Print_Vorlagen.zip) · [Alle Druckdateien](print/) |
 | Visitenkarte | [Vorder- und Rückseite als SVG-Paket](Always-Beauty_Visitenkarte_Vollstaendig_SVG.zip) |
 | Z-Falz-Flyer | [Druck-PDF mit 3 mm Beschnitt](print/Always-Beauty_Z-Falz_Druck_3mm.pdf) |
+| Beachflag für den Saloneingang | [Vorschau](print/beachflag/Always-Beauty_Beachflag_Wind-S_Vorschau.png) · [Druckentwurf](print/beachflag/Always-Beauty_Beachflag_Wind-S_Druckentwurf.pdf) · [Bearbeitbares SVG](print/beachflag/Always-Beauty_Beachflag_Wind-S_Entwurf.svg) |
 | Briefpapier | [Druck-PDF](print/Always-Beauty_Briefpapier_Druck.pdf) · [Word-Vorlage](print/Always-Beauty_Briefpapier_Word_Vorlage.docx) |
 | Gutschein und Terminkarte | [Gutschein A5](print/Gutschein-A5.svg) · [Terminkarte](print/Terminkarte.svg) |
 | Social Media | [Feed, Stories und Avatar](social/) · [Gestaltungsregeln](previews/13-social-regeln.png) |
+
+Die Beachflag ist für [Flyerking Wind, Grösse S](https://www.flyerking.ch/beach-flags/beachflag-drucken-wind) gestaltet. Der QR-Code führt zur WhatsApp-Terminanfrage bei Oxana. Vor der Druckfreigabe den CMYK-Entwurf mit der aktuellen Vorlage für Beschnitt und Mastsaum abgleichen.
 
 ## Marketing und Produktion
 
